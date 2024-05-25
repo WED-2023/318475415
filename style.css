@@ -71,7 +71,7 @@ p {
 
 .profile-picture {
     float: left;
-    margin-left: 450px;
+    margin-left: 300px;
 	margin-top: 50px;
 	position: left;
 }
@@ -171,6 +171,39 @@ p {
 #like-count {
     font-size: 18px;
     color: #333;
+}
+
+#qrcode {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.qrcode-container {
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+#qrcode h1 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#qrcode p {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+#qr-code-image {
+    width: 200px; /* Adjust the size as needed */
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
 }
 
 footer {
